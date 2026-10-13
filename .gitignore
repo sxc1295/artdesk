@@ -1,0 +1,17 @@
+# Artwork binaries are distributed in GitHub Releases, not Git history.
+images/
+gallery-data.json
+名画浏览器.html
+current.json
+history.json
+installation.json
+errors.log
+backup-*/
+*.tmp
+*.zip
+__pycache__/
+.venv/
+dist/
+local-state/
+ArtDesk.html
+

@@ -1,0 +1,30 @@
+桌边美术馆 ArtDesk v1.0.0
+
+支持 Windows 10 / 11，内含 395 幅画及中文资料。无需 Python。
+
+1. 先右键 ZIP 选择“全部解压缩”，不要在压缩包内直接运行。
+   建议放在“文档”中的 ArtDesk 文件夹，以后保持位置不变。
+
+2. 看画：双击 Open-ArtDesk.cmd，在 Edge 独立窗口浏览中文画库。
+   尚未配置换壁纸时，点击“浏览全部画作”即可。
+
+3. 自动换壁纸：先从官网安装 John's Background Switcher（JBS），启动一次。
+   官网：https://johnsad.ventures/software/backgroundswitcher/windows/
+   然后双击 Install-ArtDesk.cmd，安装会备份 JBS 原配置。
+   默认每 4 小时换画，可以在 JBS 内自行调整。
+
+4. 查看当前作品：双击桌面的“ArtDesk 名画介绍”。
+   每次桌面换画后，重新打开即可更新资料。
+   如提示无法确认当前作品，仍可浏览画库；不会随便配上另一幅画的说明。
+
+5. 恢复原来的 JBS 配置：双击 Uninstall-ArtDesk.cmd。
+   它会恢复安装前的设置，保留画库、图片、使用记录与备份。
+   如安装后手动修改过 JBS，恢复时也会覆盖那些变化，卸载前会另存当前配置。
+
+安装会替换 JBS 的本地图片文件夹和换画后命令，保留开机自启选项及其他图片来源。
+多个换壁纸程序可能相互覆盖，请自行保留一个换画程序。
+本项目不附带 JBS 安装包，也不自动下载新画作。
+
+来源与版权说明：THIRD_PARTY_NOTICES.md
+完整说明与源码：https://github.com/sxc1295/artdesk
+下载完整版本：https://github.com/sxc1295/artdesk/releases/latest
